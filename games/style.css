@@ -1,0 +1,11 @@
+#container {
+    width: 1024px;
+    height: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Game%20page.jpg);
+}
+
+body {
+    background-color:black;
+}

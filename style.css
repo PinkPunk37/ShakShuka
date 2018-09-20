@@ -1,0 +1,66 @@
+@font-face {
+    font-family: bahnschrift;
+    src: url("bahnschrift.ttf")
+}
+
+#main {
+    font-family: bahnschrift;
+}
+body{
+    font-family: bahnschrift;
+    background-color: black;
+}
+
+#container {
+    width: 1024px;
+    height: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(logo.png), url(7.jpg)
+}
+
+.row {
+    width: 1024px;
+    height: 768px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(7.png);
+    filter: blur(0.2px);
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 2em;
+    -webkit-margin-after: 10em;
+    -webkit-margin-start: 100px;
+    -webkit-margin-end: 90px;
+    font-weight: bold;
+    background-color: black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    
+}
+
+.column:hover {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
