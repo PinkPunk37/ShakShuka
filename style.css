@@ -67,10 +67,12 @@ a {
 
 ul {
     position: absolute;
-    left: 390px;
-    top: 260px;
-    font-size: 30px;
+    left: 410px;
+    top: 210px;
+    font-size: 20px;
     color: white;
+    text-align: center;
+    
 }
 
 h2 {
@@ -100,9 +102,9 @@ h3 {
 
 h4 {
     position: absolute;
-    font-size: 17px;
+    font-size: 14px;
     left: 450px;
-    top:570px;
+    top:430px;
     font-style: italic;
     color: orangered;
 }
@@ -114,4 +116,31 @@ h4 {
     color: orangered;
     font-size: 14px;
     font-style:italic;
+}
+
+#games {
+    position: absolute;
+    right: 250px;
+    top: 990px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+
+#snake {
+    position: absolute;
+    width: 200px;
+    right: 300px;
+    top: 1300px;
+    
+}
+
+h6 {
+    position: absolute;
+    top: 1190px;
+    right: 330px;
+    color: orangered;
+    font-size: 14px;
+    font-style:italic;
+    
 }
